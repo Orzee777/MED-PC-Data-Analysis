@@ -19,6 +19,7 @@ Open the program in an editor of choice and easily modify it, as needed, to chan
 * The number of nosepokes per trial
 * The amount of time the door is open (N, or N1 and N2 in shift trials)
 * A modifier to account of door open duration
+* Input file selector vs hardcoding
 * Output file name and location
 * Output values
 * Rounding value
