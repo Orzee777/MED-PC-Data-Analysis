@@ -22,10 +22,10 @@ root = tk.Tk()
 root.withdraw()
 
 # option for hardcoding input file path
-#file_path = 'C:\\Users\\Erika\\Desktop\\ouput new4.xlsx'
+#file_path = "C:\\Users\\Default\\Documents\\inputfile.xlsx"
 
 # CHANGE OUTPUT PATH HERE
-out_path = "C:\\Users\\Erika\\Desktop\\outputfile5.txt"
+out_path = "C:\\Users\\Default\\Documents\\outputfile.txt"
 file_path = filedialog.askopenfilename()
 
 excelfile = pd.ExcelFile(file_path)
