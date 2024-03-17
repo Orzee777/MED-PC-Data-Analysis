@@ -36,3 +36,5 @@ The program will request an Excel file to parse the data and return the followin
 9. Licks per trial
 10. Rate of licks
 11. Rate of licks per trial
+
+The output file was designed to easily copy and paste values to another program.
