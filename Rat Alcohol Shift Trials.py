@@ -28,11 +28,11 @@ from datetime import datetime
 root = tk.Tk()
 root.withdraw()
 
-# option for hardcoding input file path
-#file_path = 'C:\\Users\\Erika\\Desktop\\ouput new4.xlsx'
+# option for hardcoding input file path - comment out opening file dialog code above
+#file_path = "C:\\Users\\Default\\Documents\\input.xlsx"
 
 # CHANGE OUTPUT PATH HERE
-out_path = "C:\\Users\\Erika\\Desktop\\outputfileSHIFT.txt"
+out_path = "C:\\Users\\Default\\Documents\\outputfileSHIFT.txt"
 file_path = filedialog.askopenfilename()
 
 excelfile = pd.ExcelFile(file_path)
